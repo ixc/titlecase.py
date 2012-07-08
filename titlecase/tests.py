@@ -132,8 +132,12 @@ TEST_DATA = (
         "This Is http://foo.com"
     ),
     (
-        "THIS IS ALL CAPS, HAS 3 NUMsB3R5 AND SHOULD BE ADDRESSED",
+        "THIS IS ALL CAPS, HAS 3 NUMB3R5 AND SHOULD BE ADDRESSED",
         "This Is All Caps, Has 3 Numb3r5 and Should Be Addressed",
+    ),
+    (
+        "formula1: something justifying a colon",
+        "Formula1: Something Justifying a Colon",
     ),
 )
 
