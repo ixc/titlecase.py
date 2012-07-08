@@ -130,7 +130,11 @@ TEST_DATA = (
     ( 
         "this is http://foo.com",
         "This Is http://foo.com"
-    )
+    ),
+    (
+        "THIS IS ALL CAPS, HAS 3 NUMsB3R5 AND SHOULD BE ADDRESSED",
+        "This Is All Caps, Has 3 Numb3r5 and Should Be Addressed",
+    ),
 )
 
 def test_all_caps_regex():
